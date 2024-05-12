@@ -1,0 +1,14 @@
+set scrolloff=5
+set number relativenumber
+set idearefractormode=keep
+set ideajoin
+set visualbell
+
+let mapleader = " "
+
+noremap <Esc> <nop>
+nmap <S-Enter> 0<Esc>
+
+" Custom Keymaps
+map <leader>n :bn<cr>
+map <leader>p :bp<cr>
